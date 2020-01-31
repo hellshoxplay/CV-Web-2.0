@@ -1,6 +1,10 @@
 $(document).on('ready', function () {
     // initialization of go to
     $.HSCore.components.HSGoTo.init('.js-go-to');
+    // initialization of chart pies with rtl option
+    var rtlItems = $.HSCore.components.HSChartPie.init('.js-pie-rtl', {
+        rtl: true
+    });
 });
 $(window).on('load', function () {
     // initialization of header

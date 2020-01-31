@@ -1,7 +1,7 @@
 /* Add here all your css styles (customizations) */
 
-body{
-    background: url("../img/bg/pattern/footer-lodyas.png")  ;
+#formations{
+    background: url("../include/svg/svg-bg5.svg")  ;
 }
 
 .u-header__logo-img {
@@ -81,10 +81,10 @@ body{
     width: 45%;
     background: #fff;
     padding: 20px;
-    -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-    -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 3px 3px 0 rgba(28, 113, 164, 0.1);
+    -moz-box-shadow: 3px 3px 0 rgba(28, 113, 164, 0.1);
+    -ms-box-shadow: 3px 3px 0 rgba(28, 113, 164, 0.1);
+    box-shadow: 3px 3px 0 rgba(28, 113, 164, 0.1);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -93,6 +93,8 @@ body{
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    border: 1px solid #1C71A4;
+    border-top: none;
 }
 #timeline .timeline-item .timeline-content .img-square {
     height: 30px;
@@ -103,7 +105,7 @@ body{
     height: 30px;
     width:auto;
 }
-#timeline .timeline-item .timeline-content h2 {
+#timeline .timeline-item .timeline-content h3 {
     padding: 15px;
     background: #1C71A4;
     color: #fff;
@@ -115,7 +117,7 @@ body{
     border-radius: 3px 3px 0 0;
     font-size: 22px;
 }
-#timeline .timeline-item .timeline-content h3{
+#timeline .timeline-item .timeline-content h4{
     font-weight: 400;
     font-size: 18px;
 }

@@ -4,6 +4,7 @@
     <list default="true" id="f70e0fe4-1d84-40cf-bf14-d43fe264323e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
       <updated>1580423890347</updated>
       <workItem from="1580423892556" duration="1668000" />
       <workItem from="1580425812646" duration="5707000" />
-      <workItem from="1580467826828" duration="8539000" />
+      <workItem from="1580467826828" duration="17211000" />
     </task>
     <servers />
   </component>
@@ -59,6 +60,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580510796272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580510796272" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1580425680361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
