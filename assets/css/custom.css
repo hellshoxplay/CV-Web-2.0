@@ -1,7 +1,13 @@
 /* Add here all your css styles (customizations) */
+
+body{
+    background: url("../img/bg/pattern/footer-lodyas.png")  ;
+}
+
 .u-header__logo-img {
-    height:50px;
+    height:auto;
     width: 50px;
+    border-radius: 10%;
 }
 
 /* Experience Timeline */
@@ -88,6 +94,15 @@
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+#timeline .timeline-item .timeline-content .img-square {
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+}
+#timeline .timeline-item .timeline-content .img-rectangular {
+    height: 30px;
+    width:auto;
+}
 #timeline .timeline-item .timeline-content h2 {
     padding: 15px;
     background: #1C71A4;
@@ -100,9 +115,16 @@
     border-radius: 3px 3px 0 0;
     font-size: 22px;
 }
+#timeline .timeline-item .timeline-content h3{
+    font-weight: 400;
+    font-size: 18px;
+}
 #timeline .timeline-item .timeline-content p {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+}
+#timeline .timeline-item .timeline-content li {
+    list-style: none;
 }
 #timeline .timeline-item .timeline-content:before {
     content: '';
