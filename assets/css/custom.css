@@ -1,10 +1,16 @@
 /* Add here all your css styles (customizations) */
 #experiences {
-    background: url("../../assets/img/bg/pattern6-1.png");
+    background: url("../include/svg/svg-bg5.svg") no-repeat;
+    background-position-y: center;
 }
 
 #formations {
     background: url("../include/svg/svg-bg5.svg")  ;
+}
+
+#competences {
+    background: url("../include/svg/svg-bg4.svg") no-repeat;
+    background-position-y: bottom;
 }
 
 .u-header__logo-img {
@@ -415,4 +421,42 @@
 
 #competences .card-header {
     background-color: #1C71A4;
+}
+
+/* Colors */
+.bg-color-blue-cv {
+    background-color: #1C71A4;
+}
+.bg-color-cv-yellow-dark {
+    background-color: #E8C25A;
+}
+.bg-color-cv-yellow-light {
+    background-color: #FFE870;
+}
+.bg-color-cv-orange-dark {
+    background-color: #E86E46;
+}
+.bg-color-cv-orange-light {
+    background-color: #FF924D;
+}
+.bg-color-cv-red {
+    background-color: #EB1C10;
+}
+.bg-color-cv-purple {
+    background-color: #EB0B83;
+}
+.bg-color-cv-pink {
+    background-color: #FF4AF6;
+}
+.bg-color-cv-cyan-dark {
+    background-color: #21C6EB;
+}
+.bg-color-cv-cyan-light {
+    background-color: #61FFF8;
+}
+.bg-color-cv-green-dark {
+    background-color: #0CEB4F;
+}
+.bg-color-cv-green-light {
+    background-color: #77EB6C;
 }
