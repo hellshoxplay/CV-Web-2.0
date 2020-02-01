@@ -7,6 +7,10 @@ $(document).on('ready', function () {
     });
     // initialization of scroll animation
     $.HSCore.components.HSOnScrollAnimation.init('[data-animation]');
+    // initialization of popups
+    $.HSCore.components.HSPopup.init('.js-fancybox');
+    // initialization of carousel
+    $.HSCore.components.HSCarousel.init('.js-carousel');
 });
 $(window).on('load', function () {
     // initialization of header

@@ -423,6 +423,11 @@
     background-color: #1C71A4;
 }
 
+#footer img  {
+    height: 100px;
+    width: auto;
+    border-radius: 25%;
+}
 /* Colors */
 .bg-color-blue-cv {
     background-color: #1C71A4;
