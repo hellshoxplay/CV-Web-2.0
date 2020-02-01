@@ -1,6 +1,9 @@
 /* Add here all your css styles (customizations) */
+#experiences {
+    background: url("../../assets/img/bg/pattern6-1.png");
+}
 
-#formations{
+#formations {
     background: url("../include/svg/svg-bg5.svg")  ;
 }
 
@@ -10,7 +13,21 @@
     border-radius: 10%;
 }
 
-/* Experience Timeline */
+/** Experiences NavTabs */
+#experiences .nav-item img {
+    width: 40px;
+    height: auto;
+    padding-top: 20%;
+}
+
+#experiences .tab-pane h4 {
+    font-weight: 400;
+    font-size: 18px;
+}
+#experiences .tab-pane ul li {
+    list-style: none;
+}
+/* Formations Timeline */
 .success {
     background: #78AD42 !important;
 }
