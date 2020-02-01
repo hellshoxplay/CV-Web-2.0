@@ -5,6 +5,8 @@ $(document).on('ready', function () {
     var rtlItems = $.HSCore.components.HSChartPie.init('.js-pie-rtl', {
         rtl: true
     });
+    // initialization of scroll animation
+    $.HSCore.components.HSOnScrollAnimation.init('[data-animation]');
 });
 $(window).on('load', function () {
     // initialization of header

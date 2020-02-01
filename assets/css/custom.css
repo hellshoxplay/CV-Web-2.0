@@ -27,6 +27,7 @@
 #experiences .tab-pane ul li {
     list-style: none;
 }
+
 /* Formations Timeline */
 .success {
     background: #78AD42 !important;
@@ -406,4 +407,12 @@
         -o-transform: translateX(0);
         transform: translateX(0);
     }
+}
+
+#competences .card {
+    border : 1px solid #1C71A4;
+}
+
+#competences .card-header {
+    background-color: #1C71A4;
 }
