@@ -520,6 +520,12 @@
     }
 }
 
+/* Gallerie */
+
+#gallerie img {
+    max-height: 600px;
+}
+
 #footer img  {
     height: 100px;
     width: auto;
