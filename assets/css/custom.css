@@ -34,6 +34,111 @@
     list-style: none;
 }
 
+/* Title */
+
+.title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+}
+
+.title h1, .title h3 {
+    transform: matrix(1, -0.20, 0, 1, 0, 0);
+    -ms-transform: matrix(1, -0.20, 0, 1, 0, 0);
+    -webkit-transform: matrix(1, -0.20, 0, 1, 0, 0);
+}
+
+.title h1 {
+    font-family: "Oswald", Sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    text-shadow: 4px 5px #e6e6d8, 6px 7px #c6a39a;
+}
+
+.title h1 span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title i {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.title h3 {
+    font-family: 'Julius Sans One', Sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    position: relative;
+    line-height: 1;
+}
+
+.title h3:before, .title h3:after {
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    border-top: 2px solid #121212;
+    border-bottom: 2px solid #121212;
+}
+
+.title h3:before {
+    margin: 5px 0 0 -110px;
+}
+
+.title h3:after {
+    margin: 5px 0 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        display:none;
+    }
+}
+
+@media  screen and (min-width : 769px) and (max-width: 999px )  {
+    .title h1 {
+        font-size:20px;
+    }
+    .title h3 {
+        font-size: 7px;
+    }
+    .title i {
+        font-size: 5px;
+    }
+    .title h3:before, .title h3:after {
+        content: " ";
+        position: absolute;
+        width: 50px;
+        height: 4px;
+        border-top: 1px solid #121212;
+        border-bottom: 1px solid #121212;
+    }
+}
+@media  screen and (min-width : 1000px) and (max-width: 1265px )  {
+    .title h1 {
+        font-size:30px;
+    }
+    .title h3 {
+        font-size: 10px;
+    }
+    .title i {
+        font-size: 7px;
+    }
+    .title h3:before, .title h3:after {
+        content: " ";
+        position: absolute;
+        width: 60px;
+        height: 5px;
+        border-top: 1px solid #121212;
+        border-bottom: 1px solid #121212;
+    }
+}
+
 /* Formations Timeline */
 .success {
     background: #78AD42 !important;
@@ -413,14 +518,6 @@
         -o-transform: translateX(0);
         transform: translateX(0);
     }
-}
-
-#competences .card {
-    border : 1px solid #1C71A4;
-}
-
-#competences .card-header {
-    background-color: #1C71A4;
 }
 
 #footer img  {
