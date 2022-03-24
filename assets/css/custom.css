@@ -1,4 +1,10 @@
 /* Add here all your css styles (customizations) */
+
+#certifications {
+    background: url("../include/svg/svg-bg5.svg") no-repeat;
+    background-position-y: center;
+}
+
 #experiences {
     background: url("../include/svg/svg-bg5.svg") no-repeat;
     background-position-y: center;
